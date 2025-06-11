@@ -1,0 +1,69 @@
+body{
+    background-color: rgba(0, 0, 0, 0.849);
+}
+form{
+    margin-top: 10em;
+    margin-left: 10%;
+    width: 50%;
+    height: 0;
+}
+form h1{
+    color: white;
+    display: flex;
+    margin-bottom: 1em;
+    transform: translateX(15em);
+}
+form input{
+    border: 2px solid rgb(55, 128, 0);
+    background-color: black;
+    color: white;
+    margin: 5px;
+}
+form .name{
+    height: 40px;
+    width: 20em;
+}
+form input::placeholder{
+    transform: translateX(15px);
+}
+form .email{
+    width: 41.3em;
+    height: 40px;
+}
+form .gender{
+    color: green;
+    font-size: 25px;
+}
+form .date{
+    height: 40px;
+    width: 20em;
+}
+form .country{
+    height: 40px;
+    width: 20em;
+}
+form textarea{
+    width: 41.3em;
+    border: 1px solid green;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    transform: translateY(-15em);
+    margin-left: 85%;
+}
+form textarea::placeholder{
+    padding: 10px;
+}
+form button{
+    width: 100px;
+    height: 40px;
+    border: 1px solid green;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    transform: translateY(-12em);
+    margin-left: 60%;
+}
+form button:hover{
+    background-color: rgba(0, 128, 0, 0.484);
+}
